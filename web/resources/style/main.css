@@ -1,0 +1,396 @@
+*{
+  font-family: 'Rubik', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+#fortuner{
+    background: url("http://127.0.0.1:5501/images/Light%20Beige%20Sleek%20and%20Simple%20Blogger%20Personal%20Website%20(1).png");
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+#toyota {
+    width: 80%;
+    margin: auto;
+    
+}
+#toyota .fourty-four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourty-one div{
+    width: 35%;
+}
+.fourty-one div img{
+    width: 100%;
+    margin-top: 8px;
+}
+#toyota .fourty-three{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.fourty-three div a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(7, 1, 1);
+    font-weight: bold;
+}
+#toyota h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    color: rgb(30, 5, 5);
+    margin-top: 10%;
+    font-weight: 400;
+}
+#toyota .fourty-two{
+    margin-left: 20%;
+}
+.fourty-two select{
+    font-size: larger;
+    padding: 11px;
+    border-radius: 5px;
+    margin: 8px;
+}
+.fourty-two input{
+    font-size: larger;
+    padding: 11px;
+    border-radius: 5px;
+    width: 65%;
+    margin: 8px;
+}
+.fourty-two div{
+    margin-left: 20%;
+    font-size: large;
+}
+.fourty-two div a{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+/* box */
+.category_1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 25%;
+    /* margin:3% 20%; */
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-top: 7%;
+  }
+  .button_1 {
+    height: 70%;
+    width: 80%;
+    margin: 10% 10%;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #point {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .category_1 > a {
+    text-decoration: none;
+    color: black;
+  }
+  #point > img {
+    width: 70px;
+    height: 80px;
+  }
+  .button_1 input {
+    padding: 3% 30%;
+  }
+  .button_1 p {
+    margin-top: 2%;
+    font-weight: 545;
+    text-align: center;
+  }
+  .button_1:hover {
+    background-color: gainsboro;
+  }
+
+  /* home services */
+  #home_service_line {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  hr {
+    border: none;
+    outline: none;
+    height: 15px;
+    background: rgb(228, 231, 233);
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  /* appliances1 */
+  .category_launches_newCat > p {
+    text-align: center;
+  
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .category_launches_content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .category_launches_content input {
+    margin: 20px 20px;
+    border-radius: 10px;
+  }
+  
+  .category_launches_content p {
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .category_launches_content .offers {
+    color: rgb(120, 118, 118);
+  }
+  .button_2 input:hover {
+    cursor: pointer;
+  
+    transform: scale(1.1, 1.1);
+  }
+  /* description */
+  .learn_more {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: -70px;
+    margin-left: 25%;
+    padding: 2.5%;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+  }
+  .learn_more .l_more {
+    color: rgb(60, 60, 210);
+  }
+  .learn_more .ll_more {
+    color: rgb(163, 163, 170);
+  }
+  .learn_more p {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  
+  .know_more {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: -70px;
+    margin-left: 25%;
+    padding: 2.5%;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+  }
+  .know_more .k_more {
+    color: rgb(60, 60, 210);
+  }
+  .know_more .kk_more {
+    color: rgb(71, 71, 78);
+  }
+  .know_more p {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: justify;
+    margin-right: 30px;
+  }
+  
+  .skill_india {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: -70px;
+    margin-left: 25%;
+    padding: 2%;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+  }
+  .skill_india .s_india__ {
+    color: rgb(60, 60, 210);
+  }
+  .skill_india .s_india_ {
+    color: rgb(71, 71, 78);
+  }
+  .skill_india p {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: justify;
+    margin-right: 30px;
+  }
+  /* footer */
+  .footer{
+    background: #000;
+    z-index: 3;
+    position: relative;
+}
+.footer .footerBasic{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footerBasic .footerAbout{
+    padding: 24px 0 8px;
+    font-size: 14px;
+}
+.footerBasic .footerAbout ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerBasic .footerAbout li{
+    margin-right: 28px;
+    margin-bottom: 16px;
+    opacity: .8;
+    transition: opacity .2s;
+}
+.footerBasic .footerAbout a{
+    color: #fff;
+    font-size: 14px;
+}
+.footerBasic .serving{
+    padding: 18px 0;
+    border-top: 1px solid #424242;
+}
+.footerBasic .serving p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.footerBasic .serving ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerBasic .serving li{
+    margin-right: 32px;
+    font-size: 14px;
+    line-height: 36px;
+    opacity: .8;
+    transition: opacity .2s;
+}
+.footerBasic .serving .countryName{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footerBasic .serving .countryName ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerBasic .serving .countryName li{
+    margin-right: 32px;
+    font-size: 14px;
+    line-height: 36px;
+    opacity: .8;
+    transition: opacity .2s;
+}
+
+.footerBasic .serving a{
+    color: #fff;
+}
+.footerBasic .footerFoot{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #424242;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+.footerBasic .footerFoot .brand{
+    display: flex;
+    align-items: center;
+}
+.footerBasic .footerFoot .brand a{
+    display: flex;
+    align-items: center;
+    opacity: .8;
+    transition: opacity .2s;
+}
+.footerBasic .footerFoot .brand .logo{
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+}
+.footerFoot .brand .logo .logoBg{
+    opacity: 0;
+    z-index: 0;
+}
+.footerFoot .brand .logo img{
+    width: 100%;
+    height: 100%;
+}
+.footerFoot .brand .company{
+    color: #fff;
+    margin-left: 16px;
+    font-size: 12px;
+    opacity: .8;
+    transition: opacity .2s;
+}
+.footerFoot .footerSocials{
+    display: flex;
+    align-items: center;
+}
+.footerFoot .footerSocials li{
+    margin-right: 16px;
+    opacity: .8;
+    transition: opacity .2s;
+}
+.footerFoot .footerSocials a{
+    color: #fff;
+}
+.footerFoot .footerSocials .socialsContainer{
+    font-size: 20px;
+}
+.footerFoot .downloadBtns a{
+    margin-right: 16px;
+}
+.footerFoot .downloadBtns .download{
+    width: 144px;
+    height: 48px;
+}
+.footerFoot .downloadBtns .download .downloadBg{
+    opacity: 0;
+    z-index: 0;
+}
+.footerFoot .downloadBtns .download  img{
+    width: 144px;
+    height: 48px;
+}
+.footerFoot .downloadBtns .btn2{
+    margin-right: 0;
+}

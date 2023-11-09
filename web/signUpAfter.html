@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <title>SignUp</title>
+    <style>
+        * {
+            font-family: 'Teko', sans-serif;
+            background-color: #fef9ef;
+            align-items: center;
+            margin: auto;
+        }
+
+        button {
+            /* background-image: url(./BG.png); */
+            font-size: 35px;
+            font-weight: 300;
+            border-radius: 3px;
+            padding: 12px 20px;
+            border: none;
+            color: #000000;
+            background-color: #00cecb;
+            transition: all ease 0.5s;
+        }
+
+        button:active {
+            scale: 0.9;
+        }
+
+        button:hover {
+            box-shadow: 5px 5px 0px #000;
+        }
+        div{
+            display: flex;
+            margin-top: 20px;
+            margin-top: 38vh;
+         
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button id="signup_redirector">CUSTOMER SIGNUP</button><br>
+        <button id="service_pro_re">REGISTER AS SERVICE PROVIDER</button><br>
+    </div>
+</body>
+
+<script>
+          document.getElementById("signup_redirector").addEventListener("click", function() {
+            window.location.href = "customer_signUp.jsp";
+        });
+        
+         document.getElementById("service_pro_re").addEventListener("click", function() {
+            window.location.href = "proRegistration.html";
+        });
+</script>
+
+
+
+</html>
