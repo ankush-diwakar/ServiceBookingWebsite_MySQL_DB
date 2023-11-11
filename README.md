@@ -1,7 +1,6 @@
 # ServiceBookingWebsite_MySQL_DB
 # UrbanSeva
 
-![UrbanSeva Website Preview](url_to_website_preview_image)
 
 ## Description
 
@@ -30,4 +29,12 @@ experience for both customers and service workers, offering a wide range of serv
 - Email Services
 
 ## Screen shorts
+![Screenshot 2023-10-17 235309](https://github.com/ankush-diwakar/ServiceBookingWebsite_MySQL_DB/assets/150348342/818bf271-61a5-43aa-b6d0-8680860350a1)
+
+![Screenshot (35)](https://github.com/ankush-diwakar/ServiceBookingWebsite_MySQL_DB/assets/150348342/7c00192b-0945-40f9-9330-9cdf257bca63)
+
+![Screenshot (34)](https://github.com/ankush-diwakar/ServiceBookingWebsite_MySQL_DB/assets/150348342/914b6dea-7732-4425-95a5-47845fa11121)
+![Screenshot 2023-10-17 235635](https://github.com/ankush-diwakar/ServiceBookingWebsite_MySQL_DB/assets/150348342/021c421b-ef2c-4270-b939-01b440b7b8b2)
+
+![Screenshot 2023-10-17 235935](https://github.com/ankush-diwakar/ServiceBookingWebsite_MySQL_DB/assets/150348342/d18d91d6-0750-4bd0-8447-3f866f12e05d)
 
